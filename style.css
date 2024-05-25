@@ -54,7 +54,7 @@ body {
 }
 
 .activities {
-    background-color: chartreuse;
+    
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;

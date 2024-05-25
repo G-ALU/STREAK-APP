@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main"> 
+       
+    <div class="attraction">
+        
+        <div class="inputfield">
+            <form action="" class="form1">
+             <label for="text1">Habit</label>
+            <input type="text" id="text1" placeholder="Input Habit" required><br><br>
+            <label for="date-start">Starting Date</label>
+            <input type="date" id="date-start" placeholder="dd/mm/yyyy" required><br><br>
+            <label for="date-end">Current Date</label>
+            <input type="date" id="date-end" placeholder="dd/mm/yyyy" required><br><br>
+              
+            <select name="dropdown" id="dropdown">
+                <option value="0">Choose  image of Habit....</option>
+                <option value="logo-no-smoking">Smoking</option>
+                <option value="bed-outline">Sleeping alot</option>
+                <option value="hourglass-outline">Time management</option>
+                <option value="barbell-outline">Exercise</option>
+                <option value="bicycle-outline">Cycling</option>
+                <option value="journal-outline">Journaling</option>
+                <option value="leaf-outline">Chewing khat</option>
+
+
+            </select>
+
+            
+            <button id="mySubmit"><ion-icon name="add-circle-outline" style="width: 60px; height: 50px; background-color: coral; color: white; border: none;"></ion-icon></button>
+            </form>
+
+
+
+           
+            
+        </div>  
+        <div class="imagetracker">
+            <img src="/images/images.jpeg" alt="">
+        </div> 
+        
+        <div class="welcomemesso">
+            <p>Welcome to My Streak Counter</p>
+        </div>
+       
+        <form id="update-form" style="display:none;">
+            <input type="text" id="update-text" placeholder="Update Habit" required><br><br>
+            <input type="date" id="update-date-start" placeholder="dd/mm/yyyy" required><br><br>
+            <input type="date" id="update-date-end" placeholder="dd/mm/yyyy" required><br><br>
+            <select name="update-dropdown" id="update-dropdown">
+                <option value="logo-no-smoking">Smoking</option>
+                <option value="bed-outline">Sleeping alot</option>
+                <option value="hourglass-outline">Time management</option>
+                <option value="barbell-outline">Exercise</option>
+                <option value="bicycle-outline">Cycling</option>
+                <option value="journal-outline">Journaling</option>
+                <option value="leaf-outline">Chewing khat</option>
+            </select>
+            <button id="update-submit">Submit Update</button>
+        </form>
+        
+
+                 
+    </div>
+    <div class="actinglike"> 
+        <H3>ACTIVITIES</H3>
+    </div>
+
+         <div class="activities">
+             <div class="activities1">
+                <ion-icon name="bed-outline"></ion-icon>
+                <p>01/05/2024 <br> Sleeping alot</p><br>
+                <p id="bed1">20days</p>
+                <button class="update1" id="update">update Habit</button>
+                <button class="update1" id="delete">Delete Habit</button>
+                <button class="update1" id="reset" >Reset Streak</button>
+             </div>
+               
+             <div class="activities1">
+                <ion-icon name="bed-outline"></ion-icon>
+                <p>01/05/2024 <br> Sleeping alot</p><br>
+                <p id="bed1">20days</p>
+                <button class="update1" id="update">update Habit</button>
+                <button class="update1" id="delete">Delete Habit</button>
+                <button class="update1" id="reset" >Reset Streak</button>
+             </div>
+
+             <div class="activities1">
+                <ion-icon name="bed-outline"></ion-icon>
+                <p>01/05/2024 <br> Sleeping alot</p><br>
+                <p id="bed1">20days</p>
+                <button class="update1" id="update">update Habit</button>
+                <button class="update1" id="delete">Delete Habit</button>
+                <button class="update1" id="reset" >Reset Streak</button>
+             </div>
+         </div>
+
+       
+
+</div>
+   
+    
+    <script src="/dist/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,25 @@
+{
+  "habits": [
+    {
+      "habit": "Chewing Khat",
+      "startDate": "2024-05-24",
+      "endDate": "2024-05-31",
+      "habitimage": "leaf-outline",
+      "id": "3fb5"
+    },
+    {
+      "id": "44ed",
+      "habit": "Smoking",
+      "startDate": "2024-05-01",
+      "endDate": "2024-05-23",
+      "habitimage": "logo-no-smoking"
+    },
+    {
+      "id": "b45f",
+      "habit": "sleeping late",
+      "startDate": "2024-05-01",
+      "endDate": "2024-05-24",
+      "habitimage": "bed-outline"
+    }
+  ]
+}

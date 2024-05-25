@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.main{
+    height: 1000px;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+
+.welcomemesso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-size: 50px;
+    color: white;
+    text-align: center; 
+    padding: 0 10px; /
+}
+
+.attraction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: coral;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+}
+.
+
+.inputfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputfield input,
+.inputfield select,
+.inputfield button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.attraction img {
+    width: 80%; 
+    max-width: 300px; 
+}
+
+.activities {
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    height: 500px;
+}
+
+.activities1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 300px;
+    
+    border: 2px solid coral; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+ion-icon {
+    font-size: 3em; 
+    color: rgb(0, 153, 255);
+}
+
+
+@media (min-width: 768px) {
+    .attraction {
+        flex-direction: row;
+        height: 70vh;
+        gap: 50px;
+    }
+
+    .inputfield {
+        width: 20vw;
+    }
+
+    .activities1 {
+        width: 10vw;
+        height: 25vh;
+    }
+
+    ion-icon {
+        font-size: 6em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .attraction img {
+        width: 20vw;
+    }
+
+    .welcomemesso {
+        font-size: 50px;
+    }
+}
+.actinglike{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px ;
+}
+.update1{
+    width: 100px;
+    height: 100px;
+}
+
